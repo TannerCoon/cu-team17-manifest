@@ -2,6 +2,7 @@
 <manifest>
   
   <remote fetch="ssh://git@github.com/cu-team17/" name="team17"/>
+  <remote fetch="ssh://git@github.com/android-rpi/" name="arpi"/>
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
@@ -325,6 +326,7 @@
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
   <project path="frameworks/base" name="cu-team17-frameworks-base" revision="team17-r19-dev" remote="team17" />
+  <project path="device/brcm/rpi3" name="device_brcm_rpi3" revision="nougat-tablet" remote="arpi"/>
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
